@@ -1,0 +1,17 @@
+names:
+- CAR
+- Date
+- Lar
+- MICR
+- Payee
+- check_no
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: checx
+  url: https://universe.roboflow.com/testtrain/checx/dataset/6
+  version: 6
+  workspace: testtrain
+test: ../test/images
+train: Checx-6/train/images
+val: Checx-6/valid/images
